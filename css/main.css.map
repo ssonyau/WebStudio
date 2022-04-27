@@ -2,9 +2,11 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "../sass/main.scss"
+        "../sass/main.scss",
+        "../sass/"
+
         
     ],
     "names": [],
-    "file": "main.min.css"
+    "file": "main.css"
 }

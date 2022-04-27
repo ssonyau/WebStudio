@@ -1078,7 +1078,7 @@ justify-content: center;
   margin-bottom: 50px;
 }
 
-.activity-item:not(:last-child)) {
+.activity-item:not(:last-child){
   margin-right: 30px;
 }
 
@@ -1119,7 +1119,7 @@ justify-content: center;
 }
 
   .client-li :not(:last-child){
-    margin-right: ;
+    margin: right 8px; 
   }
 
 .client-li{
@@ -1175,8 +1175,7 @@ justify-content: center;
 .icon-tel:hover,
 .icon-tel:focus,
 .icon-mail:hover,
-.icon-mail:focus,
-{
+.icon-mail:focus{
   color: var(--accent-color);
   cursor: pointer;
   fill: var(--button-color);
