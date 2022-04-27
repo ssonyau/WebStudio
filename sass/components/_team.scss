@@ -1,0 +1,50 @@
+.team__name {
+    margin-bottom: 10px;
+}
+
+.team__position {
+    color: #757575;
+}
+
+.team__list {
+    margin-left: -30px;
+    display: flex;
+}
+
+.team__item {
+    position: relative;
+    margin-top: 30px;
+    margin-left: 30px;
+    background: #ffffff;
+}
+
+.team-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+    color: #212121;
+}
+
+.team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: #f5f4fa;
+}
+
+.team__workers {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.team-icons {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 16px;
+}

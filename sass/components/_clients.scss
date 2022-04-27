@@ -1,0 +1,50 @@
+.clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.clients-o {
+    align-items: center;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #212121;
+
+}
+
+.client-li :not(:last-child) {
+    margin: right 8px;
+}
+
+.client-li {
+    height: 92px;
+    width: 170px;
+}
+
+.clients-container {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.client-item:hover,
+.client-item:focus {
+    border: 1px solid var(--button-color);
+    fill: var(--button-color);
+    transition: fill 250ms var(--timing-function);
+}
+
+
+.client-item {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: var(--icons-color);
+    transition: fill 250ms var(--timing-function), border 250ms var(--timing-function);
+}
+

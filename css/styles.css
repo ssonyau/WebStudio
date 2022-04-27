@@ -479,30 +479,29 @@ color: #757575;
 }
 
 
-.portfolio__overlay{
-position: relative;
-overflow: hidden;
+.portfolio__overlay {
+  position: relative;
+  overflow: hidden;
 }
 
 
-.portfolio__text{
+.portfolio__text {
   position: absolute;
   background-color: rgba(33, 150, 243, 0.9);
-font-weight: 400;
-font-size: 18px;
-line-height: 1.5;
-color: var(--accent-color);
-padding-top: 43px;
-padding-left: 24px;
-padding-bottom: 83px;
-width: 100%;
-height: 100%;
-top: 0;
-left: 0;
-transform: translateY(100%);
-transition: transform 250ms var(--timing-function);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--accent-color);
+  padding-top: 43px;
+  padding-left: 24px;
+  padding-bottom: 83px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform: translateY(100%);
+  transition: transform 250ms var(--timing-function);
 }
-
 
 .advantages__subject {
   font-weight: bold;
@@ -517,7 +516,6 @@ transition: transform 250ms var(--timing-function);
 
 .portfolio__item {
   background: #ffffff;
-
 }
 
 .advantages__text {
@@ -607,7 +605,6 @@ transition: transform 250ms var(--timing-function);
   line-height: 2;
   letter-spacing: 0.06em;
   margin-bottom: 4px;
-
   color: #212121;
 }
 
@@ -616,9 +613,7 @@ transition: transform 250ms var(--timing-function);
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-
   color: #757575;
-
 }
 
 .portfolio__list {

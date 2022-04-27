@@ -1,0 +1,22 @@
+.button-social:hover,
+.button-social:focus {
+    background-color: var(--button-color);
+    fill: var(--accent-color);
+}
+
+.button-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    fill: var(--icons-color);
+    transition: fill 250ms var(--timing-function), background-color 250ms var(--timing-function);
+}
+
+.button-social:hover,
+.button-social:focus {
+    background-color: var(--button-color);
+    fill: var(--accent-color);
+}

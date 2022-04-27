@@ -1,0 +1,132 @@
+.footer-link {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    transform: rgba(255, 255, 255, 0.6) 250ms var(--timing-function);
+}
+
+.footer {
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #2f303a;
+}
+
+.footer-logo {
+    font-family: "Raleway";
+    font-weight: bold;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    display: block;
+    margin-bottom: 30px;
+    color: #2196f3;
+    text-decoration: none;
+}
+
+.footer-pre {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-item {
+    margin-bottom: 9px;
+}
+
+.footer-li:not(:last-child) {
+    margin-right: 10px;
+}
+
+.footer-o-pre {
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+.footer-adress-link {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.footer-link {
+    text-decoration: none;
+    font-style: normal;
+}
+
+.footer-list {
+    display: flex;
+    align-items: baseline;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer-join {
+    display: inline-block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer-o {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-join__title {
+    font-family: 'Roboto';
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer-join__link {
+    padding: 0;
+    border: none;
+    width: 44px;
+    height: 44px;
+    fill: var(--accent-color);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 250ms var(--timing-function);
+}
+
+.footer-join__icon {
+    height: 20px;
+    width: 20px;
+}
+
+.footer-join__link:hover,
+.footer-join__link:focus {
+    background-color: var(--button-color);
+    transition: color 250ms var(--timing-function);
+}
+
+.footer-container-ul {
+    display: block;
+    margin-right: 70px;
+}
+
+.footer-join__list {
+    display: flex;
+}
