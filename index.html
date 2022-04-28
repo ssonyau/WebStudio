@@ -19,13 +19,21 @@
 <body>
                                     <!-- ХЕДЕР -->
     <header class="header">
-        <div class="container header-container">
+        <div class="header-container">
         <nav class="header-nav">
                                     <!-- ЛОГО СТРАНИЦЫ -->
             <div class="logo-nav">
             <a class="logo" href="./index.html">Web<span class="logo-pre">Studio</span></a>
 </div>
                                 <!-- НАВИГАЦИЯ СТРАНИЦЫ -->
+        <button class="menu-btn" type="button" aria-label="кнопка отткрытия меню">
+            <svg class="menu-btn__icon" width="24" height="16">
+                <use class="menu-btn__icon-open" href="./images/symbol-defs3.1.svg#icon-menu_iicon" ></use>
+                </svg>
+                <svg class="menu-btn__icon" width="18" height="18">
+                <use class="menu-btn__icon-close" href="./images/symbol-defs3.1.svg#icon-close_iicon" ></use>
+            </svg>
+        </button>
             <ul class="navigation">
                 <li class="header-item">
                     <a class="header-link link" href="./index.html">Студия</a>
@@ -58,7 +66,7 @@
                             <!-- ОСНОВНАЯ ЧАСТЬ С СЕКЦИЯМИ -->
     <main>
                             <!-- СЕКЦИЯ ГЕРОЙ -->
-        <section class="hero">
+        <section class=" container hero">
             <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
             <button data-modal-open type="button" class="header-btn">Заказать услугу</button>
             </section>
