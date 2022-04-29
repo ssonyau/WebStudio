@@ -347,6 +347,10 @@ color: #757575;
   display: flex;
 }
 
+.contacts{
+    margin-left: auto;
+    display: flex;
+}
 .header-link {
   position: relative;
   font-weight: 500;
@@ -691,9 +695,9 @@ color: #757575;
 }
 
 /*----------------------------logo----------------------------------------*/
-.logo-nav{
+/* .logo-nav{
   margin-right: 93px;
-}
+} */
 .logo {
   font-family: "Raleway";
   display: block;

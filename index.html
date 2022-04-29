@@ -20,21 +20,22 @@
                                     <!-- ХЕДЕР -->
     <header class="header">
         <div class="header-container">
-        <nav class="header-nav">
+        
                                     <!-- ЛОГО СТРАНИЦЫ -->
             <div class="logo-nav">
             <a class="logo" href="./index.html">Web<span class="logo-pre">Studio</span></a>
 </div>
-                                <!-- НАВИГАЦИЯ СТРАНИЦЫ -->
-        <button class="menu-btn" type="button" aria-label="кнопка отткрытия меню">
-            <svg class="menu-btn__icon" width="24" height="16">
-                <use class="menu-btn__icon-open" href="./images/symbol-defs3.1.svg#icon-menu_iicon" ></use>
-                </svg>
-                <svg class="menu-btn__icon" width="18" height="18">
-                <use class="menu-btn__icon-close" href="./images/symbol-defs3.1.svg#icon-close_iicon" ></use>
-            </svg>
-        </button>
-            <ul class="navigation">
+<button class="menu-btn" type="button" aria-label="Кнопка открытия меню" aria-expanded="false" data-menu-button aria-expanded="false">
+    <svg class="menu-btn__icon" width="44" height="44">
+        <use class="menu-btn__icon-open" href="./images/symbol-defs3.1.svg#icon-menu_iicon"></use>
+    </svg>
+    <svg class="menu-btn__icon" width="44" height="44"></svg>
+    <use class="menu-btn__icon-close" href="./images/icons.svg#close-menu-icon#icon-close_iicon"></use>
+    </svg>
+</button>
+                                    <!-- НАВИГАЦИЯ СТРАНИЦЫ -->
+        <nav class="header-nav">                           
+            <ul class="contacts">
                 <li class="header-item">
                     <a class="header-link link" href="./index.html">Студия</a>
                 </li>
@@ -61,15 +62,17 @@
                             </svg> +38 099 111 11 11</a>
                 </li>
             </ul>
-        </div>
+
+
+
     </header>
                             <!-- ОСНОВНАЯ ЧАСТЬ С СЕКЦИЯМИ -->
     <main>
                             <!-- СЕКЦИЯ ГЕРОЙ -->
-        <section class=" container hero">
+        <!-- <section class=" container hero">
             <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
             <button data-modal-open type="button" class="header-btn">Заказать услугу</button>
-            </section>
+            </section> -->
                             <!--МОДАЛЬНОЕ ОКНО-->
             <div class="backdrop is-hidden"  data-modal>
                 <div class="modal">
@@ -127,7 +130,7 @@
                 </div>
             </div>
                                     <!-- СЕКЦИЯ НАШИ ПРЕИМУЩЕСТВА -->
-        <section class="advantages"> 
+        <!-- <section class="advantages"> 
             <h2 hidden>Особенности</h2>
             <div class="container">
                 <ul class="advantages-list"> 
@@ -173,9 +176,9 @@
                 </li>
             </ul>
             </div>
-        </section>
+        </section> -->
                                     <!-- СЕКЦИЯ ЧЕМ МЫ ЗАНИМАЕМСЯ -->
-        <section class="activity">
+        <!-- <section class="activity">
             <div class="container">
             <h2 class="activity__title">Чем мы занимаемся</h2>
             <ul class="activity__list">
@@ -199,9 +202,9 @@
                 </li>
             </ul>
             </div>
-        </section>
+        </section> -->
                                 <!-- СЕКЦИЯ НАША КОМАНДА -->
-        <section class="team">
+        <!-- <section class="team">
             <div class="container">
             <h2 class="team-title">Наша команда</h2>
             <ul class="team__list">
@@ -343,10 +346,10 @@
                 </li>
             </ul>
         </div>
-        </section>
+        </section> -->
     </main>
                             <!-- ПОСТОЯННЫЕ КЛИЕНТЫ -->
-    <section class="clients">
+    <!-- <section class="clients">
         <div class="container">
             <h2 class="clients-o"> Постоянные клиенты </h2>
             <ul class="clients-container">
@@ -395,9 +398,9 @@
 
             </ul>
         </div>
-    </section>
+    </section> -->
                             <!-- ФУТЕР -->
-    <footer class="footer">
+    <!-- <footer class="footer">
         <div class="container footer-o">
         <div class="footer-container-ul">
         <a class="footer-logo">Web<span class="logo-o-pre">Studio</span> </a>
@@ -412,7 +415,7 @@
             </ul>
         </address>
                                 <!-- ФУТЕР КОНТАКТЫ -->
-        <ul>
+        <!-- <ul>
             <li class="footer-item">
                 <a class="footer-link" href="mailto:info@example.com">info@example.com</a>
             </li>
@@ -474,7 +477,48 @@
             </div>
     </form>
 </div>
-</footer>
+</footer> --> -->
+                    <!-- МОБИЛЬНОЕ МЕНЮ --> 
+    <div class="mobile-overlay" data-menu>
+        <div class="mobile-menu">
+            <ul class="mobile-nav__list">
+                <li class="mobile-nav__item">
+                    <a class="mobile-nav__link" href="">Студия</a>
+                </li>
+                <li class="mobile-nav__item">
+                    <a class="mobile-nav__link" href="">Портфолио</a>
+                </li>
+                <li class="mobile-nav__item">
+                    <a class="mobile-nav__link" href="">Контакты</a>
+                </li>
+            </ul>
+        </div>
+        <div class="contacts">
+            <li class="mobile-contacts">
+            <a class="mobile-contacts-link" href="+380961111111">+38 096 111 11 11</a>
+            </li>
+            <li class="mail-contacts">
+            <a class="mail-contacts-link" href="info@devstudio.com">info@devstudio.com</a>
+            </li>
+            </div>
+            
+                <ul class="menu-social list">
+                    <li class="menu-social-item">
+                        <a class="menu-social-link" href="">Instagram</a>
+                    </li>
+                    <li class="menu-social-item">
+                        <a class="menu-social-link" href="">Twitter</a>
+                    </li>
+                    <li class="menu-social-item">
+                        <a class="menu-social-link" href="">Facebook</a>
+                    </li>
+                    <li class="menu-social-item">
+                        <a class="menu-social-link" href="">LinkedIn</a>
+                    </li>
+                </ul>
+        
+    </div>
+<script src="./js/menu.js"></script>
 <script src="./js/modal.js"></script>
 </body>
 </html>
