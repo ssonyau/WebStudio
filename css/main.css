@@ -511,6 +511,10 @@ body {
   margin-bottom: 200px;
 }
 
+.header-nav {
+  align-items: center;
+}
+
 .header-btn {
   background: #2196f3;
   margin: 0 auto;
