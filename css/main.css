@@ -157,10 +157,6 @@ img {
 
 body {
   font-family: "Roboto", sans-serif;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
 }
 
 .list {
@@ -177,6 +173,7 @@ body {
 
 .container {
   width: 100%;
+  max-width: 480px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -184,14 +181,16 @@ body {
 
 @media screen and (min-width: 768px) {
   .container {
+    max-width: 768px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
   }
 }
 
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1200px) {
   .container {
+    max-width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -435,12 +434,13 @@ body {
 
 .header-container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
 @media screen and (min-width: 767px) {
   .header-container {
-    justify-content: space-between;
+    justify-content: center;
   }
 }
 
@@ -598,7 +598,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   border-color: #c4c4c4;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/people.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/people.sm.png);
   background-size: cover;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -923,11 +923,11 @@ body {
 .menu-btn {
   position: relative;
   display: flex;
+  justify-content: space-between;
   background-color: transparent;
   border: transparent;
   outline: transparent;
   z-index: 99;
-  margin-left: 284px;
 }
 
 @media screen and (min-width: 768px) {

@@ -348,8 +348,7 @@ color: #757575;
 }
 
 .contacts{
-    margin-left: auto;
-    display: flex;
+  text-decoration: none;
 }
 .header-link {
   position: relative;
