@@ -1,14 +1,15 @@
 .hero-title {
-    width: 696px;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    color: #ffffff;
+    width: 0%;
+    margin-right: auto;
+    margin-left: auto;
+    
+    @media screen and (min-width: 480px) {
+        width: 360px;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        width: 696px;
+    }
 }
 
 .hero {
