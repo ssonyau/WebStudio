@@ -927,7 +927,7 @@ body {
   border: transparent;
   outline: transparent;
   z-index: 99;
-  margin-left: auto;
+  margin-left: 284px;
 }
 
 @media screen and (min-width: 768px) {
