@@ -12,6 +12,16 @@ h6 {
     margin: 0;
 }
 
+h2{
+        margin-bottom: 30px;
+        color: #212121;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 1.18;
+        text-align: center;
+        text-decoration: none;
+}
+
 ul {
     margin: 0;
     padding-left: 0;
@@ -55,24 +65,20 @@ body {
 }
 
 .container {
-    
     width: 100%;
-    max-width: 480px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-            
-            @media screen and (min-width:768px) {
-                max-width: 768px;
-                padding-left: 15px;
-                padding-right: 15px;
-                margin: 0 auto;
-            }
-            
-            @media screen and (min-width:1200px) {
-                max-width: 1200px;
-                padding-left: 15px;
-                padding-right: 15px;
-                margin: 0 auto;
-            }
+    
+    @media screen and (min-width: 480px) {
+        width: 480px;
+    }
+    
+    @media screen and (min-width: 768px) {
+        width: 768px;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        width: 1200px;
+    }
 }

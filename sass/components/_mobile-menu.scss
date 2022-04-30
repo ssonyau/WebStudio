@@ -77,7 +77,7 @@
 }
 
 .mobile-nav__list{
-    margin-bottom: 302px;
+    margin-bottom: 188px;
 }
 
 .mobile-contacts{
@@ -86,4 +86,33 @@
 
 .mail-contacts{
     margin-bottom: 64px;
+}
+
+.menu-contacts-grup {
+    margin-top: auto;
+}
+
+.menu-contacts-item {
+    margin-bottom: 32px;
+}
+
+.menu-contacts--tel {
+    color: #2196f3;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.17;
+
+    letter-spacing: 0.02em;
+
+    text-decoration: none;
+
+}
+
+.menu-contacts--mail {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
 }

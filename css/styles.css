@@ -590,7 +590,7 @@ color: #757575;
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 50px;
-  
+    
     @media screen and (min-width: 768px) {
     display: flex;
     justify-content: center;
@@ -644,10 +644,9 @@ color: #757575;
 }
 
 .portfolio__list {
-  display: flex;
+
   margin-top: -30px;
   margin-left: -30px;
-  flex-wrap: wrap;
   
 }
 
@@ -783,17 +782,6 @@ color: #757575;
 
 
 
-.footer-logo {
-  font-family: "Raleway";
-  font-weight: bold;
-  font-size: 26px;
-  letter-spacing: 0.03em;
-  display: block;
-  margin-bottom: 30px;
-  
-  color: #2196f3;
-  text-decoration: none;
-}
 
 .footer-pre {
   padding-top: 60px;
@@ -898,7 +886,6 @@ color: #FFFFFF;
 
 .footer-container-ul{
   display: block;
-  margin-right: 70px;
   padding-bottom: 60px;
 }
 
@@ -972,9 +959,6 @@ color: #FFFFFF;
   background-position: top;
 }
 
-.form{
-  padding-left: 93px;
-}
 
 
 .form-icon{
@@ -1000,7 +984,7 @@ justify-content: center;
 }
 
 .form-field input {
-  width: 358px;
+  width: 340px;
   height: 50px;
 
   padding: 15px 16px;
@@ -1009,7 +993,14 @@ justify-content: center;
 
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  /* background-color: rgba(255, 255, 255, 0.3); */
+    
+  @media screen and (max-width: 1199px) {
+  text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+  padding-left: 93px;
+}
 }
 
 .form-field input::placeholder {
@@ -1079,17 +1070,6 @@ justify-content: center;
 }
 /*--------------------------caption---------------------------------------*/
 
-.team-title {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  
-  margin-bottom: 50px;
-
-  color: #212121;
-}
 
 .activity__title{
   font-weight: bold;
@@ -1133,15 +1113,6 @@ justify-content: center;
 
 }
 
-.clients-o{
-  align-items: center;
-  font-size: 36px;
-  letter-spacing: 0.03em;
-  margin-bottom: 50px;
-  text-align: center;
-  color: #212121;
-
-}
 
   .client-li :not(:last-child){
     margin: right 8px; 

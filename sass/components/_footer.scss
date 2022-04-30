@@ -14,13 +14,27 @@
     background-color: #2f303a;
 }
 
+.form{
+    font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+
+
+@media screen and (max-width: 1199px) {
+    text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+    padding-left: 93px;
+}}
+
 .footer-logo {
     font-family: "Raleway";
-    font-weight: bold;
-    font-size: 26px;
-    letter-spacing: 0.03em;
     display: block;
     margin-bottom: 30px;
+    font-size: 24px;
+    letter-spacing: 0.03em;
     color: #2196f3;
     text-decoration: none;
 }
@@ -155,10 +169,8 @@
 }
 
 .footer-container-ul {
-    
-
     @media screen and (min-width: 768px) {
-        margin-right: 165px;
+        margin-right: 444px;
     }
     
     @media screen and (min-width: 1200px) {
