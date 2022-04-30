@@ -41,6 +41,8 @@ line-height: 1.7;
 }
 
 .advantages-list {
+
+
     @media screen and (min-width: 768px) {
         display: flex;
         
@@ -53,6 +55,7 @@ line-height: 1.7;
 }
 
 .advantages-item {
+
 @media screen and (max-width: 767px) {
     margin-bottom: 30px;
 }
@@ -67,17 +70,14 @@ line-height: 1.7;
 
 .advantages-icons {
     
-    background-color: #f5f4fa;
-    
-    width: 100%;
-    
-    margin-bottom: 30px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 4px;
+    background: #F5F4FA;
+    margin-bottom: 30px;
     
-    @media screen and (min-width: 480px) {
-        width: 450px;
-        height: 120px;
-    }
     
     @media screen and (min-width: 768px) {
         width: 354px;

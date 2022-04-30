@@ -1,5 +1,4 @@
 .clients {
-
     padding-top: 60px;
     padding-bottom: 60px;
     
@@ -18,13 +17,6 @@
 .client-li {
     height: 92px;
     width: 170px;
-
-    @media screen and (max-width: 480px) {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-bottom: 30px;
-    }
     
     
     @media screen and (min-width: 480px) and (max-width: 1199px) {
@@ -82,9 +74,6 @@
         border: 1px solid rgba(33, 150, 243, 1);
     }
     
-        @media screen and (min-width: 480px){
-            width: 210px;
-        }
     @media screen and (min-width: 768px) {
         width: 226px;
     }

@@ -65,11 +65,12 @@ body {
 }
 
 .container {
-    width: 100%;
-    padding: 0 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
+    width: 480px;
     
-    @media screen and (min-width: 767px) {
+    @media screen and (min-width: 480px) {
         width: 480px;
     }
     

@@ -9,9 +9,7 @@
     margin: 0 auto;
     margin-bottom: 30px;
     color: #ffffff;
-    @media screen and (max-width: 480px) {
-        width: 360px;
-    }
+
     @media screen and (min-width: 1200px) {
         width: 696px;
         font-size: 44px;
@@ -19,26 +17,19 @@
 }
 
 .hero {
-    max-width: 1600px;
-    height: 600px;
         background-size: cover;
-        padding-top: 200px;
-        padding-bottom: 200px;
+            padding-top: 118px;
+            padding-bottom: 118px;
         background-color: rgb(62, 62, 68);
     margin-left: auto;
     margin-right: auto;
+
+    text-align: center;
     border-color: rgba(196, 196, 196, 1);
     background-image: linear-gradient(to right,
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
-        url(/images/people.ld.jpg);
-
-        @media screen and (max-width: 480px) {
-            background-image:linear-gradient(to right,
-                rgba(47, 48, 58, 0.4),
-                rgba(47, 48, 58, 0.4)), url(/images/people.sm.png);
-            height: 400px;
-        }
+        url(/images/people.sm.png);
         
         @media screen and (min-width: 768px) {
         background-image:linear-gradient(to right,
@@ -52,4 +43,14 @@
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)), url(/images/people.ld.jpg);
         }
+        }
+
+        .backdrop.is-hidden.backdrop-form {
+            transform: translate(-50%, -50%) scale(0.5);
+        }
+
+        .backdrop.is-hidden {
+            opacity: 0;
+            pointer-events: none;
+            visibility: hidden;
         }

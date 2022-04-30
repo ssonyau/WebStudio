@@ -169,3 +169,97 @@ align-items: center;
         margin-left: 93px;
     }
 }
+.logo-nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-family: "Raleway";
+    display: block;
+    font-weight: bold;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+
+    color: #2196f3;
+    text-decoration: none;
+}
+
+.logo-pre {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+
+.logo-o-pre {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+    color: #ffffff;
+}
+
+.logo-item {
+    background-color: #2f303a;
+}
+
+.icon-tel {
+    width: 10px;
+    height: 16px;
+    fill: currentColor;
+    margin-right: 10px;
+    transition: color 250ms var(--timing-function);
+    transition: fill 250ms var(--timing-function);
+}
+
+.icon-tel:hover,
+.icon-tel:focus,
+.icon-mail:hover,
+.icon-mail:focus {
+    color: var(--accent-color);
+    cursor: pointer;
+    fill: var(--button-color);
+}
+
+.icon-mail {
+    width: 16px;
+    height: 12px;
+    fill: currentColor;
+    margin-right: 10px;
+}
+
+
+
+.team-icons {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+.btn-icon:not(:last-child) {
+    margin-right: 10px;
+}
+
+.button-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    fill: var(--icons-color);
+    transition: fill 250ms var(--timing-function), background-color 250ms var(--timing-function);
+}
+
+.button-social:hover,
+.button-social:focus {
+    background-color: var(--button-color);
+    fill: var(--accent-color);
+}
