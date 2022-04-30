@@ -1,7 +1,18 @@
 .hero-title {
-    width: 0%;
-    margin-right: auto;
-    margin-left: auto;
+    width: 360px;
+    width: 696px;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    color: #ffffff;
+    @media screen and (max-width: 480px) {
+        width: 360px;
+    }
     
     @media screen and (min-width: 480px) {
         width: 360px;
@@ -9,6 +20,7 @@
     
     @media screen and (min-width: 1200px) {
         width: 696px;
+        font-size: 44px;
     }
 }
 
@@ -25,53 +37,19 @@
     background-image: linear-gradient(to right,
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
-        url(../images/people.sm.png);
-        background-image: -webkit-image-set(
-            url(../images/people.sm.webp) 2x
-        );
+        url(/images/people.ld.jpg);
 
-        @include mq (retina){
-            background-image: linear-gradient(to right,
-                rgba(47, 48, 58, 0.4),
-                rgba(47, 48, 58, 0.4)),
-            url(../images/people..sm2.png);
-            background-image: -webkit-image-set(
-                url(../images/people..sm2.webp) 2x);
+        @media screen and (max-width: 768px) {
+            background-image: url(/images/people.sm.png);
+        
         }
-
-        @include mq (tablet) {
-            background-image: linear-gradient(to right,
-                rgba(47, 48, 58, 0.4),
-                rgba(47, 48, 58, 0.4)),
-            url(../images/people.md.png);
-            background-image: -webkit-image-set(
-                url(../images/people.md.webp) 1x);
-
-                @include mq (retina) {
-                    background-image: linear-gradient(to right,
-                            rgba(47, 48, 58, 0.4),
-                            rgba(47, 48, 58, 0.4)),
-                        url(../images/people.md2.png);
-                    ackground-image: -webkit-image-set(url(../images/people.d2.webp) 2x);
-                }
-
+        
+        @media screen and (min-width: 768px) {
+        background-image: url(/images/people.md.png);
+        
         }
-
-            @include mq (desktop) {
-                background-image: linear-gradient(to right,
-                        rgba(47, 48, 58, 0.4),
-                        rgba(47, 48, 58, 0.4)),
-                    url(../images/people.ld.jpg);
-                    ackground-image: -webkit-image-set(
-                        url(../images/people.ld.webp) 1x);
-            
-                @include mq (retina) {
-                    background-image: linear-gradient(to right,
-                            rgba(47, 48, 58, 0.4),
-                            rgba(47, 48, 58, 0.4)),
-                        url(../images/people.ld2.png);
-                        ackground-image: -webkit-image-set(
-                            url(../images/people.ld2.webp) 2x);
-                }
+        
+        @media screen and (min-width: 1200px) {
+        background-image: url(/images/people.ld.jpg);
         }
-}
+        }
