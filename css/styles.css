@@ -717,9 +717,10 @@ color: #757575;
 }
 
 /*----------------------------logo----------------------------------------*/
-/* .logo-nav{
-  margin-right: 93px;
-} */
+.logo-nav{
+  display: flex;
+  align-items: center;
+}
 .logo {
   font-family: "Raleway";
   display: block;

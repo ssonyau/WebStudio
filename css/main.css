@@ -242,12 +242,11 @@ body {
 
 .container {
   width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 767px) {
   .container {
     width: 480px;
   }
@@ -564,12 +563,6 @@ body {
 .footer-join__link:focus {
   background-color: var(--button-color);
   transition: color 250ms var(--timing-function);
-}
-
-@media screen and (min-width: 768px) {
-  .footer-container-ul {
-    margin-right: 444px;
-  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -1253,6 +1246,10 @@ body {
   height: 44px;
 }
 
+.menu-btn {
+  margin-left: auto;
+}
+
 .menu-social {
   display: flex;
   flex-wrap: wrap;
@@ -1336,10 +1333,12 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   padding-top: 48px;
   padding-left: 40px;
+  display: flex;
+  flex-direction: column;
   z-index: 10;
   background-color: #ffffff;
   transform: translateX(100%);
