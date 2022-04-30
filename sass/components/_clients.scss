@@ -16,15 +16,9 @@
 
 .client-li {
     height: 92px;
-    width: 170px;
     
     
-    @media screen and (min-width: 480px) and (max-width: 1199px) {
-        width: calc((100% / 2 - 2 * 15px));
-        margin-right: 30px;
-        margin-bottom: 30px;
-    }
-    
+
     @media screen and (min-width: 768px) and (max-width: 1199px) {
         width: calc((100% / 3 - 2 * 15px));
     }
