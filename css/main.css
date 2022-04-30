@@ -72,6 +72,12 @@
   margin-bottom: 10px;
 }
 
+@media screen and (min-width: 768px) {
+  .advantages__subject {
+    text-align: initial;
+  }
+}
+
 .advantages__text {
   width: 100%;
   font-size: 14px;
@@ -99,6 +105,7 @@
 @media screen and (min-width: 768px) {
   .advantages-list {
     display: flex;
+    flex-wrap: wrap;
   }
 }
 
@@ -273,6 +280,7 @@ body {
 
 .client-li {
   height: 92px;
+  margin: 15px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -281,10 +289,17 @@ body {
   }
 }
 
+.clients-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+
 @media screen and (min-width: 480px) and (max-width: 1199px) {
   .clients-container {
     display: flex;
     flex-wrap: wrap;
+    margin: -15px;
   }
 }
 
@@ -530,7 +545,7 @@ body {
 }
 
 .footer-o {
-  display: flex;
+  display: block;
   align-items: baseline;
 }
 

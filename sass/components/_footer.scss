@@ -174,7 +174,7 @@ text-transform: uppercase;
 }
 
 .footer-o {
-    display: flex;
+    display: block;
     align-items: baseline;
 
     @media screen and (max-width: 768px) {
