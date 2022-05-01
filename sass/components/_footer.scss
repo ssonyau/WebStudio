@@ -10,7 +10,6 @@
 .footer {
     position: relative;
     padding-top: 60px;
-    padding-bottom: 60px;
     background-color: #2f303a;
 }
 
@@ -72,7 +71,7 @@ text-transform: uppercase;
 }
 
 @media screen and (min-width: 1200px) {
-    padding-left: 93px;
+    margin-left: 93px;
 }}
 
 .form-field {
@@ -157,7 +156,7 @@ text-transform: uppercase;
 }
 
 .footer-join {
-    padding-bottom: 60px;
+    margin-bottom: 60px;
     display: inline-block;
     font-family: 'Roboto';
     font-style: normal;
@@ -189,6 +188,7 @@ text-transform: uppercase;
             justify-content: space-around;
             text-align: center;
             align-items: baseline;
+            margin-bottom: 60px;
         }
 }
 
@@ -244,8 +244,7 @@ text-transform: uppercase;
 .footer-container-ul {
 
     display: block;
-    padding-bottom: 60px;
-    
+    margin-bottom: 60px;
     @media screen and (min-width: 1200px) {
         margin-right: 70px;
     }

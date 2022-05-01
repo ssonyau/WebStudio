@@ -24,9 +24,6 @@
     background: #ffffff;
 }
 
-.activity__item:not(:last-child) {
-    margin-right: 30px;
-}
 
 .activity__box {
     position: absolute;
@@ -52,4 +49,6 @@
 .activity__list {
     margin-left: -30px;
     display: flex;
+
+    
 }
