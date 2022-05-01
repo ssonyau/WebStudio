@@ -115,6 +115,10 @@
   }
 }
 
+.advantages-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 @media screen and (max-width: 767px) {
   .advantages-item {
     margin-bottom: 30px;
@@ -137,18 +141,6 @@
   border-radius: 4px;
   background: #F5F4FA;
   margin-bottom: 30px;
-}
-
-@media screen and (min-width: 768px) {
-  .advantages-icons {
-    width: 354px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .advantages-icons {
-    width: 270px;
-  }
 }
 
 .backdrop {
@@ -242,6 +234,24 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
 }
 
 .clients {
@@ -640,14 +650,15 @@ body {
   }
 }
 
-.header-item {
-  padding-left: 50px;
-}
-
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .header-item {
     margin-bottom: 10px;
+    margin-right: 50px;
   }
+}
+
+.header-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .header-container {
@@ -911,8 +922,8 @@ body {
 
 .hero {
   background-size: cover;
-  padding-top: 118px;
-  padding-bottom: 118px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: #3e3e44;
   margin-left: auto;
   margin-right: auto;
@@ -1399,7 +1410,6 @@ body {
 }
 
 .modal-block input {
-  width: 448px;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
@@ -1435,6 +1445,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
+  width: 370px;
   line-height: 14px;
   letter-spacing: 0.01em;
   padding: 12px 16px;

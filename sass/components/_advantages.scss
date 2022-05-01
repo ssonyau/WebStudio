@@ -54,6 +54,10 @@ line-height: 1.7;
     }
 }
 
+.advantages-item:not(:last-child){
+    margin-right: 30px;
+}
+
 
 .advantages-item {
 
@@ -79,13 +83,4 @@ line-height: 1.7;
     border-radius: 4px;
     background: #F5F4FA;
     margin-bottom: 30px;
-    
-    
-    @media screen and (min-width: 768px) {
-        width: 354px;
-    }
-    
-    @media screen and (min-width: 1200px) {
-        width: 270px;
-    }
 }
