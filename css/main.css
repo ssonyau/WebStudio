@@ -111,10 +111,6 @@
   }
 }
 
-.advantages-item:not(:last-child) {
-  margin-right: 30px;
-}
-
 @media screen and (max-width: 767px) {
   .advantages-item {
     margin-bottom: 30px;
@@ -1077,7 +1073,6 @@ body {
 
 .portfolio__item {
   display: block;
-  width: 450px;
   margin: 15px;
   background: #ffffff;
 }
