@@ -96,9 +96,13 @@
 
 .portfolio__item {
     display: block;
-    width: 354px;
+    width: 450px;
     margin: 15px;
     background: #ffffff;
+
+@media screen and (min-width: 768px) {
+    width: 354px;
+}
 }
 
 .portfolio__link {
@@ -204,3 +208,4 @@
         margin-bottom: 15px;
     }
 }
+

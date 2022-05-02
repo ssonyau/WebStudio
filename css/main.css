@@ -272,6 +272,18 @@ body {
   width: 210px;
 }
 
+@media screen and (min-width: 768px) {
+  .client-li {
+    width: 225px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .client-li {
+    display: flex;
+  }
+}
+
 .clients-container {
   display: flex;
   margin: -15px;
@@ -371,6 +383,12 @@ body {
   background-color: #2f303a;
 }
 
+@media screen and (min-width: 480px) and (max-width: 1199px) {
+  .footer {
+    padding-bottom: 60px;
+  }
+}
+
 .subscribe-footer {
   padding-bottom: 20px;
   color: var(--accent-color);
@@ -434,12 +452,17 @@ body {
 
 .form-field {
   padding-bottom: 20px;
-  display: inline-block;
-  flex-direction: row;
+}
+
+@media screen and (min-width: 1199px) {
+  .form-field {
+    display: inline-block;
+    flex-direction: row;
+  }
 }
 
 .form-field input {
-  width: 340px;
+  width: 450px;
   height: 50px;
   padding: 15px 16px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -451,6 +474,7 @@ body {
 @media screen and (min-width: 1200px) {
   .form-field input {
     padding-left: 93px;
+    width: 358px;
   }
 }
 
@@ -513,9 +537,7 @@ body {
 }
 
 .footer-join {
-  margin-bottom: 60px;
   display: inline-block;
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -523,6 +545,14 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #FFFFFF;
+}
+
+.subscribe-icon {
+  margin-left: 10px;
+  background-image: url(../images/iconssend.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
 }
 
 .footer-o {
@@ -544,7 +574,6 @@ body {
     justify-content: space-around;
     text-align: center;
     align-items: baseline;
-    margin-bottom: 60px;
   }
 }
 
@@ -599,7 +628,12 @@ body {
 
 .footer-container-ul {
   display: block;
-  margin-bottom: 60px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .footer-container-ul {
+    padding-bottom: 60px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -616,6 +650,10 @@ body {
 
 .footer-join__list {
   display: flex;
+}
+
+.footer-tablet {
+  margin-bottom: 60px;
 }
 
 .header {
@@ -1039,9 +1077,15 @@ body {
 
 .portfolio__item {
   display: block;
-  width: 354px;
+  width: 450px;
   margin: 15px;
   background: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio__item {
+    width: 354px;
+  }
 }
 
 .portfolio__link {
@@ -1215,7 +1259,7 @@ body {
 
 @media screen and (min-width: 767px) {
   .team__item {
-    width: 450px;
+    width: 354px;
   }
 }
 

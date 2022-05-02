@@ -11,6 +11,10 @@
     position: relative;
     padding-top: 60px;
     background-color: #2f303a;
+
+@media screen and (min-width: 480px) and (max-width: 1199px) {
+padding-bottom: 60px;
+}
 }
 
 .subscribe-footer {
@@ -76,12 +80,16 @@ text-transform: uppercase;
 
 .form-field {
     padding-bottom: 20px;
-    display: inline-block;
-    flex-direction: row;
+
+
+    @media screen and (min-width: 1199px) {
+        display: inline-block;
+        flex-direction: row;
+    }
 }
 
 .form-field input {
-    width: 340px;
+    width: 450px;
     height: 50px;
 
     padding: 15px 16px;
@@ -94,6 +102,7 @@ text-transform: uppercase;
 
     @media screen and (min-width: 1200px) {
         padding-left: 93px;
+        width: 358px;
     }
 }
 
@@ -156,9 +165,7 @@ text-transform: uppercase;
 }
 
 .footer-join {
-    margin-bottom: 60px;
     display: inline-block;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -166,10 +173,14 @@ text-transform: uppercase;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
+}
 
-
-    
-
+.subscribe-icon {
+    margin-left: 10px;
+    background-image: url(../images/iconssend.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
 }
 
 .footer-o {
@@ -188,7 +199,7 @@ text-transform: uppercase;
             justify-content: space-around;
             text-align: center;
             align-items: baseline;
-            margin-bottom: 60px;
+        
         }
 }
 
@@ -244,7 +255,11 @@ text-transform: uppercase;
 .footer-container-ul {
 
     display: block;
-    margin-bottom: 60px;
+
+    @media screen and (min-width: 0px) and (max-width: 768px) {
+        padding-bottom: 60px;
+    }
+
     @media screen and (min-width: 1200px) {
         margin-right: 70px;
     }
@@ -258,4 +273,8 @@ text-transform: uppercase;
 
 .footer-join__list {
     display: flex;
+}
+
+.footer-tablet{
+    margin-bottom: 60px;
 }
